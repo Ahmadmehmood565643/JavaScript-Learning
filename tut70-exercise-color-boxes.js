@@ -18,10 +18,9 @@
  // -----------------------------------------------------------------------------
  // Practice Ideas
  // - Add copy-to-clipboard for color code
- // - Save/restore palette from localStorage
+ // - Save/restossre palette from localStorage
  // -----------------------------------------------------------------------------
-
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   console.log("Script.js initializing")
 
   let boxes = document.querySelector(".container").children
