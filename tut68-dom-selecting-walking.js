@@ -20,3 +20,6 @@
  // - Toggle active class for clicked menu items (only one active at a time)
  // - Build a simple live-search that hides items not matching input
  // -----------------------------------------------------------------------------
+function fectorial(n) ={
+    if(n === 0)return 1;
+}
