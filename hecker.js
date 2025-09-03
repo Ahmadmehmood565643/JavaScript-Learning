@@ -1,9 +1,5 @@
-// Create the terminal container dynamically
-const terminal = document.createElement("div");
-terminal.id = "terminal";
-document.body.appendChild(terminal);
+const terminal = document.getElementById("terminal");
 
-// Fake hacker lines
 const lines = [
   "Initializing hack.exe ...",
   "Bypassing firewall ...",
@@ -17,7 +13,7 @@ let i = 0;
 function typeLine(line, cb) {
   let idx = 0;
   const interval = setInterval(() => {
-    terminal.innerHTML += line[idx] || "";
+    terminal.innerHTML += line[idx];
     idx++;
     if (idx >= line.length) {
       clearInterval(interval);
